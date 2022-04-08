@@ -1,9 +1,9 @@
-import { LevelBar } from "./components/LevelBar";
+import LevelBar  from "./components/LevelBar";
 
 
 function App() {
   return (
-    <div className="w-100 h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 font-share-tech-mono">
+    <div>
       <LevelBar />
     </div>
   );
